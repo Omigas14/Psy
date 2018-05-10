@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Marmelad', sans-serif;
+}
+
+.parallax {
+    /* The image used */
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.navbar {
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    height: 90px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+#alink1:hover{
+    color: #354EA0;
+}
+#alink2:hover{
+    color: #2CB24A;
+}
+#alink3:hover{
+    color: #278091;
+}
+
+.alink:hover{
+    text-decoration: none;
+}
+
+.alink{
+    text-decoration: none;
+    color: white;
+}
